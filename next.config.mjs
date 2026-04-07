@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',           // This makes it fully static
+  basePath: '/v0--post118-scholarship-program-website', // Replace with your GitHub repo name
+  assetPrefix: '/v0--post118-scholarship-program-website/', 
   images: {
-    unoptimized: true,
+    unoptimized: true,        // Required for GitHub Pages
   },
-}
+  trailingSlash: true,        // Optional but recommended
+};
 
-export default nextConfig
+export default nextConfig;
