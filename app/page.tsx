@@ -1,7 +1,6 @@
 import { Download, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import Image from "next/image"
 
 export default function ScholarshipPage() {
   return (
@@ -10,13 +9,12 @@ export default function ScholarshipPage() {
       <header className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-4xl px-6 py-8">
           <div className="flex flex-col items-center gap-6 text-center">
-            <div className="relative h-20 w-full max-w-md overflow-hidden rounded-lg bg-white p-3 sm:h-24">
-              <Image
+            <div className="flex h-20 w-full max-w-md items-center justify-center overflow-hidden rounded-lg bg-white p-3 sm:h-24">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/images/logo.png"
                 alt="American Legion Hendricks County Post 118 Logo"
-                fill
-                className="object-contain"
-                priority
+                className="h-full w-auto object-contain"
               />
             </div>
             <div>
