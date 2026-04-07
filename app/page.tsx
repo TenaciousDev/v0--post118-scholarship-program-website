@@ -11,7 +11,7 @@ export default function ScholarshipPage() {
           <div className="flex flex-col items-center gap-6 text-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/logo.png"
+              src="/v0--post118-scholarship-program-website/images/logo.png"
               alt="American Legion Hendricks County Post 118 Logo"
               className="h-auto w-full max-w-2xl"
             />
