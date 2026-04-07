@@ -33,9 +33,9 @@ export default function ScholarshipPage() {
         {/* Introduction */}
         <section className="mb-12 text-center">
           <p className="mx-auto max-w-2xl text-lg leading-relaxed text-foreground/80">
-            American Legion Post 118 is proud to offer the O&apos;Malley
-            Scholarship to support students in our community pursuing higher
-            education.
+            Each year, American Legion Post 118 is proud to offer the
+            O&apos;Malley Scholarship to support students in our community
+            pursuing higher education.
           </p>
         </section>
 
