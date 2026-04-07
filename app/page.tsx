@@ -9,14 +9,12 @@ export default function ScholarshipPage() {
       <header className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-4xl px-6 py-8">
           <div className="flex flex-col items-center gap-6 text-center">
-            <div className="flex h-20 w-full max-w-md items-center justify-center overflow-hidden rounded-lg bg-white p-3 sm:h-24">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/images/logo.png"
-                alt="American Legion Hendricks County Post 118 Logo"
-                className="h-full w-auto object-contain"
-              />
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/logo.png"
+              alt="American Legion Hendricks County Post 118 Logo"
+              className="h-auto w-full max-w-2xl"
+            />
             <div>
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-balance">
                 O&apos;Malley Scholarship Program
