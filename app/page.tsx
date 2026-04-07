@@ -52,13 +52,13 @@ export default function ScholarshipPage() {
               </p>
               <div className="flex w-full flex-col gap-3">
                 <Button asChild size="lg" className="w-full">
-                  <a href="/Post-118-Scholarship-Guidelines.pdf" download>
+                  <a href="/v0--post118-scholarship-program-website/Post-118-Scholarship-Guidelines.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Scholarship Guidelines
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="w-full">
-                  <a href="/Post-118-Scholarship-Application.pdf" download>
+                  <a href="/v0--post118-scholarship-program-website/Post-118-Scholarship-Application.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Application Form
                   </a>
