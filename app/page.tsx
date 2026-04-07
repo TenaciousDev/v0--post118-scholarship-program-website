@@ -9,11 +9,11 @@ export default function ScholarshipPage() {
       {/* Header */}
       <header className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-4xl px-6 py-8">
-          <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:text-left">
-            <div className="relative h-24 w-24 flex-shrink-0 overflow-hidden rounded-lg bg-white p-2">
+          <div className="flex flex-col items-center gap-6 text-center">
+            <div className="relative h-20 w-full max-w-md overflow-hidden rounded-lg bg-white p-3 sm:h-24">
               <Image
                 src="/images/logo.png"
-                alt="American Legion Post 118 Logo"
+                alt="American Legion Hendricks County Post 118 Logo"
                 fill
                 className="object-contain"
                 priority
@@ -23,9 +23,6 @@ export default function ScholarshipPage() {
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl text-balance">
                 O&apos;Malley Scholarship Program
               </h1>
-              <p className="mt-2 text-lg text-primary-foreground/90">
-                American Legion Post 118
-              </p>
             </div>
           </div>
         </div>
