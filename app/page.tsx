@@ -51,15 +51,23 @@ export default function ScholarshipPage() {
                 Download Application Packet
               </h2>
               <p className="mb-6 text-muted-foreground">
-                Get the complete scholarship application packet with all
-                required forms and instructions.
+                Review the scholarship guidelines, then complete and submit the
+                application form.
               </p>
-              <Button asChild size="lg" className="w-full sm:w-auto">
-                <a href="/scholarship-packet.pdf" download>
-                  <Download className="mr-2 h-4 w-4" />
-                  Download Packet
-                </a>
-              </Button>
+              <div className="flex w-full flex-col gap-3">
+                <Button asChild size="lg" className="w-full">
+                  <a href="/Post-118-Scholarship-Guidelines.pdf" download>
+                    <Download className="mr-2 h-4 w-4" />
+                    Scholarship Guidelines
+                  </a>
+                </Button>
+                <Button asChild size="lg" variant="outline" className="w-full">
+                  <a href="/Post-118-Scholarship-Application.pdf" download>
+                    <Download className="mr-2 h-4 w-4" />
+                    Application Form
+                  </a>
+                </Button>
+              </div>
             </CardContent>
           </Card>
 
